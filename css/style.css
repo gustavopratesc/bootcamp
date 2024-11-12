@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 76, 255);
+}
+
+/* CONFIGURAÇÕES HEADER */
+
+.cabeçalho {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.itensCabeçalho {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(54, 71, 112);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fotoPerfil {
+    margin-right: 5px;
+    height: 75px;
+    width: 85px;
+    border: 1px solid black;
+    border-radius: 70%;
+}
+.itensCabeçalho h1 {
+    color: rgb(102, 148, 255);
+    text-shadow: 1px 1px 1px rgb(59, 59, 59);
+} 
+
+/* CONFIGURAÇÕES MAIN */
+
+#container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgb(88, 87, 87);
+    padding: 15px;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container > section > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+article > h3 {
+    font-style: italic;
+}
+
+article > h3, img, p {
+    margin: 7px;
+}
+
+.paisagemUm {
+    width: 60%;
+    border-radius: 5px;
+}
+.paisagemDois {
+    width: 60%;
+    border-radius: 5px;
+}
+
+/* CONFIGURAÇÕES FOOTER */
+
+footer {
+    background-color: black;
+    margin-top: 50px;
+    padding: 60px;
+}
+ul {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+
+}
+nav ul li {
+    margin: 5px;
+}
+nav ul li > a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    
+}
+nav ul li > a:hover {
+    color: rgb(30, 198, 134);
+}
